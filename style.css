@@ -1,0 +1,73 @@
+.personal_img img{
+    width: 20%;
+    height: 20%;
+    clip-path: circle();
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    width: auto;
+    background-color: rgba(161, 137, 137, 0.671);
+    padding: 10px;
+    border-width: 2px solid;
+    border-radius: 20px;
+    margin: 5px;
+}
+.html{
+    width:60%;
+    background-color: orange;
+    padding: 10px;
+    border-width: 2px solid;
+    border-radius: 20px;
+}
+.css{
+    width: 50%;
+    background-color: cyan;
+    padding: 10px;
+    border-width: 2px solid;
+    border-radius: 20px;
+}
+.js{
+    width: 30%;
+    background-color: yellow;
+    padding: 10px;
+    border-width: 2px solid;
+    border-radius: 20px;
+}
+.sql{
+    width: 80%;
+    background:rgb(69, 69, 177);
+    padding: 10px;
+    color: white;
+    border-width: 2px solid;
+    border-radius: 20px;
+}
+.py{
+    width:60%;
+    background:purple;
+    padding: 10px;
+    border-width: 2px solid;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+.icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons a{
+    text-decoration: none;
+    margin: 10px;
+}
+.fa-brands fa-github fa-2x{
+    color: rgb(17, 17, 160);
+}
+.fa-brands fa-facebook fa-2x{
+    color: #3b5998;
+}
+.fa-brands fa-steam fa-2x{
+    color: #e8efef;
+}
