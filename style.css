@@ -1,3 +1,7 @@
+body {
+  background-color: #081b29;
+  color: white;
+}
 .personal_img img {
   width: 20%;
   height: 20%;
@@ -24,6 +28,7 @@
 .css {
   width: 50%;
   background-color: cyan;
+  color: black;
   padding: 10px;
   border-width: 2px solid;
   border-radius: 20px;
@@ -31,6 +36,7 @@
 .js {
   width: 30%;
   background-color: yellow;
+  color: black;
   padding: 10px;
   border-width: 2px solid;
   border-radius: 20px;
@@ -54,27 +60,37 @@ h1 {
   text-align: center;
 }
 .icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 20px;
+  background-color: #03111b;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 20px;
+  width: max-content;
+  height: max-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .icons a {
   text-decoration: none;
   margin: 10px;
 }
-.fa-brands fa-github fa-2x {
-  color: rgb(17, 17, 160);
+.fa-brands.fa-github.fa-2x {
+  color: white;
 }
-.fa-brands fa-facebook fa-2x {
-  color: #3b5998;
+.fa-brands.fa-facebook.fa-2x {
+  color: white;
 }
-.fa-brands fa-steam fa-2x {
-  color: #e8efef;
+.fa-brands.fa-steam.fa-2x {
+  color: white;
+}
+.fa-solid.fa-envelope.fa-2x {
+  color: white;
 }
 table,
 th,
 td {
-  border: 1px solid black;
+  border: 1px solid white;
   border-collapse: collapse;
 }
 table {
@@ -85,4 +101,49 @@ th,
 td {
   padding: 10px;
   text-align: center;
+}
+.about_me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: fit-content;
+  background-color: #03111b;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 5px;
+}
+.Hobbies {
+  margin: 20px;
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #03111b;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px;
+}
+.RMIT {
+  margin: 20px;
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #03111b;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px;
+}
+.skills {
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #03111b;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px;
 }
