@@ -1,6 +1,28 @@
+nav {
+  padding: 10px;
+  text-align: center;
+}
+.navbar {
+  display: inline;
+  margin: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+.navbar a:hover {
+  border-bottom: 2px solid white;
+}
 body {
   background-color: #081b29;
   color: white;
+}
+h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
 }
 .personal_img img {
   width: 20%;
@@ -56,9 +78,6 @@ body {
   border-width: 2px solid;
   border-radius: 20px;
 }
-h1 {
-  text-align: center;
-}
 .icons {
   margin: 20px;
   background-color: #03111b;
@@ -102,6 +121,14 @@ td {
   padding: 10px;
   text-align: center;
 }
+td {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+th {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
 .about_me {
   display: block;
   margin-left: auto;
@@ -112,6 +139,8 @@ td {
   border-radius: 10px;
   border: 1px solid white;
   padding: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 .Hobbies {
   margin: 20px;
@@ -124,6 +153,8 @@ td {
   border-radius: 10px;
   border: 1px solid white;
   padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 .RMIT {
   margin: 20px;
@@ -136,8 +167,12 @@ td {
   border-radius: 10px;
   border: 1px solid white;
   padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 .skills {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
   margin: 20px;
   display: block;
   margin-left: auto;
@@ -146,4 +181,23 @@ td {
   border-radius: 10px;
   border: 1px solid white;
   padding: 10px;
+}
+.gallery {
+  margin: 5px;
+  display: inline-block;
+  width: 450px;
+}
+.Music {
+  margin: 10px;
+  background-color: #03111b;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+.music_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
